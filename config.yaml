@@ -9,7 +9,7 @@
 # path to a directory with all packages
 storage: ./storage
 # path to a directory with plugins to include
-plugins: /Users/hushuang/workspace/node/plugins
+plugins: ../../plugins
 
 web:
   title: Verdaccio
