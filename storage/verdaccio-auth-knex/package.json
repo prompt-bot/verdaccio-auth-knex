@@ -1,0 +1,92 @@
+{
+	"name": "verdaccio-auth-knex",
+	"versions": {
+		"0.0.1": {
+			"name": "verdaccio-auth-knex",
+			"version": "0.0.1",
+			"description": "a verdaccio authentication plugin support databases like mysql, postgresql, sqlite3, mssql",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"files": [
+				"lib/"
+			],
+			"engines": {
+				"node": ">=10"
+			},
+			"dependencies": {
+				"@verdaccio/commons-api": "^9.6.1",
+				"knex": "^0.95.3",
+				"pg": "^8.5.1"
+			},
+			"devDependencies": {
+				"@verdaccio/babel-preset": "^9.6.1",
+				"@verdaccio/eslint-config": "^9.3.2",
+				"eslint": "^6.6.0",
+				"jest": "^26.0.1 ",
+				"prettier": "^1.19.1",
+				"standard-version": "^8.0.0"
+			},
+			"keywords": [
+				"verdaccio",
+				"plugin",
+				"auth",
+				"database",
+				"mysql",
+				"postgresql",
+				"sqlite3",
+				"mssql",
+				"verdaccio"
+			],
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bchanudet/verdaccio-auth-knex.git"
+			},
+			"author": {
+				"name": "shaddock",
+				"email": "hushuang123a@gmail.com"
+			},
+			"scripts": {
+				"build": "npm run build:types && npm run build:js",
+				"build:js": "babel src/ --out-dir lib --extensions \".ts,.tsx\"",
+				"build:types": "tsc --emitDeclarationOnly",
+				"test": "jest",
+				"lint": "eslint \"**/*.{js,ts}\""
+			},
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/bchanudet/verdaccio-auth-knex/issues"
+			},
+			"homepage": "https://github.com/bchanudet/verdaccio-auth-knex#readme",
+			"_id": "verdaccio-auth-knex@0.0.1",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.10",
+			"dist": {
+				"integrity": "sha512-eMzIAwm/Gd4WPn6w2Vf0RNUo+1k10evx0SkgMOaKBIZ9FVsczOvv8dGAmEIUmDKWH4GQ+u8A71mKo1AN3ac//A==",
+				"shasum": "53d3c8de1c7a21e46d31afb1c4b3a62ca7ae9267",
+				"tarball": "http://localhost:4873/verdaccio-auth-knex/-/verdaccio-auth-knex-0.0.1.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2021-03-26T06:29:58.726Z",
+		"created": "2021-03-26T06:29:58.726Z",
+		"0.0.1": "2021-03-26T06:29:58.726Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.1"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"verdaccio-auth-knex-0.0.1.tgz": {
+			"shasum": "53d3c8de1c7a21e46d31afb1c4b3a62ca7ae9267",
+			"version": "0.0.1"
+		}
+	},
+	"_rev": "4-54ae854ad9483875",
+	"_id": "verdaccio-auth-knex",
+	"readme": "# verdaccio-auth-knex\n\n> a verdaccio  Authentication Plugin support databases like mysql, postgresql, sqlite2, mssql\n\n---\n\n## development\n\nSee the [verdaccio contributing guide](https://github.com/verdaccio/verdaccio/blob/master/CONTRIBUTING.md) for instructions setting up your development environment. \nOnce you have completed that, use the following npm tasks.\n\n  - `npm run build`\n\n    Build a distributable archive\n\n  - `npm run test`\n\n    Run unit test\n\nFor more information about any of these commands run `npm run ${task} -- --help`."
+}
