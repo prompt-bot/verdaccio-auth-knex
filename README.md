@@ -1,6 +1,6 @@
 # verdaccio-auth-knex
 
-> a verdaccio  Authentication Plugin support databases like mysql, postgresql, sqlite2, mssql
+> a verdaccio authentication plugin support databases like mysql, postgresql, sqlite3, mssql
 
 ---
 

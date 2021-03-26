@@ -1,6 +1,6 @@
 {
   "name": "verdaccio-auth-knex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a verdaccio authentication plugin support databases like mysql, postgresql, sqlite3, mssql",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,7 +25,7 @@
   "license": "MIT",
   "repository":  {
     "type": "git",
-    "url": "git+https://github.com/bchanudet/verdaccio-auth-knex.git"
+    "url": "git+https://github.com/ntfs32/verdaccio-auth-knex.git"
   },
   "author": "shaddock <hushuang123a@gmail.com>",
   "scripts": {
