@@ -1,17 +1,21 @@
 {
   "name": "verdaccio-auth-knex",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "a verdaccio authentication plugin support databases like mysql, postgresql, sqlite3, mssql",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "files": ["lib/"],
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src/",
+    "index.js"
+  ],
   "engines": {
     "node": ">=10"
   },
   "dependencies": {
     "@verdaccio/commons-api": "^9.6.1",
     "knex": "^0.95.3",
-    "pg": "^8.5.1"
+    "pg": "^8.5.1",
+    "verdaccio-auth-knex": "1.0.1"
   },
   "devDependencies": {
     "@verdaccio/babel-preset": "^9.6.1",
@@ -21,12 +25,23 @@
     "prettier": "^1.19.1",
     "standard-version": "^8.0.0"
   },
-  "keywords": ["verdaccio", "plugin", "auth", "database", "mysql", "postgresql", "sqlite3", "mssql", "verdaccio"],
+  "keywords": [
+    "verdaccio",
+    "plugin",
+    "auth",
+    "database",
+    "mysql",
+    "postgresql",
+    "sqlite3",
+    "mssql",
+    "verdaccio"
+  ],
   "license": "MIT",
-  "repository":  {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/ntfs32/verdaccio-auth-knex.git"
   },
+  "homepage": "https://github.com/ntfs32/verdaccio-auth-knex.git",
   "author": "shaddock <hushuang123a@gmail.com>",
   "scripts": {
     "build": "npm run build:types && npm run build:js",
