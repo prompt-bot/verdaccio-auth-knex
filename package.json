@@ -1,6 +1,6 @@
 {
   "name": "verdaccio-auth-knex",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "a verdaccio authentication plugin support databases like mysql, postgresql, sqlite3, mssql",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
